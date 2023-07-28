@@ -7,10 +7,9 @@
     <list default="true" id="e68f6ef1-c71c-4320-b775-5b67ab4e7b00" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/controller/QRFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/controller/QRFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/view/qr-form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/view/qr-form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/qr/QRGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QR- Code_Generator-Using-JavaFX/qr/QRGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/QRFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/QRFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/qr/QRGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qr/QRGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/qr-form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/qr-form.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690525417198</updated>
-      <workItem from="1690525418604" duration="2927000" />
+      <workItem from="1690525418604" duration="4293000" />
+      <workItem from="1690529881531" duration="5000" />
     </task>
     <servers />
   </component>
