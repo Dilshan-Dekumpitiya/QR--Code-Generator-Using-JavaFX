@@ -1,5 +1,5 @@
 # QR-Code-Generator-Using-JavaFX
-This is a Java application that generates QR codes using the Google ZXing library and provides a user interface built with JavaFX.
+This is a Java application that generates QR codes using the Google ZXing (“Zebra Crossing”) library and provides a user interface built with JavaFX.
 
 ## Dependencies
 
