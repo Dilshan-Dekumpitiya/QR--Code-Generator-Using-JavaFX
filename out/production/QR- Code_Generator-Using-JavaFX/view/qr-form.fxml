@@ -41,9 +41,9 @@
          </textFill>
       </Label>
       <Separator layoutX="317.0" layoutY="42.0" orientation="VERTICAL" prefHeight="348.0" prefWidth="4.0" />
-      <TextField fx:id="txtText" layoutX="24.0" layoutY="191.0" onAction="#txtTextOnAction" prefHeight="30.0" prefWidth="265.0" promptText="enter your text here" />
-      <JFXButton layoutX="24.0" layoutY="244.0" style="-fx-background-color: lightblue;" text="Generate" />
-      <JFXButton layoutX="246.0" layoutY="244.0" style="-fx-background-color: red;" text="Clear" />
+      <TextField fx:id="txtText" layoutX="24.0" layoutY="191.0" onAction="#txtTextOnAction" onKeyReleased="#txtTextonKeyReleased" prefHeight="30.0" prefWidth="265.0" promptText="enter your text here" />
+      <JFXButton fx:id="btnGenerate" layoutX="24.0" layoutY="244.0" onAction="#btnGenerateOnAction" style="-fx-background-color: lightblue;" text="Generate" />
+      <JFXButton fx:id="btnClear" layoutX="246.0" layoutY="244.0" onAction="#btnClearOnAction" style="-fx-background-color: red;" text="Clear" />
       <ImageView fx:id="pic" fitHeight="348.0" fitWidth="318.0" layoutX="348.0" layoutY="47.0" pickOnBounds="true">
          <image>
             <Image url="@../assets/QR-Code-Background.jpg" />

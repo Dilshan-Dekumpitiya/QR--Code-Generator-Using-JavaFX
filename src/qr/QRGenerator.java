@@ -1,5 +1,10 @@
 package qr;
 
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.WriterException;
+import com.google.zxing.client.j2se.MatrixToImageWriter;
+import com.google.zxing.common.BitMatrix;
 import javafx.scene.control.Alert;
 
 import java.io.IOException;
@@ -17,7 +22,7 @@ public class QRGenerator {
     }
 
     public void getGenerator() throws IOException, WriterException {
-        path = "C:\\Users\\dilsh\\Downloads" + data + ".png"; //path you want to download ong file
+        path = "C:\\Users\\dilsh\\Downloads" + data + ".png"; //path you want to download qr png file
         BitMatrix encode = new MultiFormatWriter().encode(data, BarcodeFormat.QR_CODE, 200, 200);
         Path path1 = Paths.get(path);
         MatrixToImageWriter.writeToPath(encode, path.substring(path.lastIndexOf('.') + 1), path1);
